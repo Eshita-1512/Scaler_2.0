@@ -1,5 +1,5 @@
-from drug_interaction_env.server.drug_database import DRUG_INTERACTIONS
-from drug_interaction_env.server.patients import PATIENTS
+from server.drug_database import DRUG_INTERACTIONS
+from server.patients import PATIENTS
 from itertools import combinations
 import ast
 

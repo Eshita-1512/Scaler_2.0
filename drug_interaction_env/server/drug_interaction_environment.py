@@ -11,9 +11,9 @@ Implements the DrugInteractionEnvironment class with:
 
 from itertools import combinations
 
-from drug_interaction_env.server.drug_database import DRUG_INTERACTIONS, lookup_pair
-from drug_interaction_env.server.patients import PATIENTS
-from drug_interaction_env.models import (
+from server.drug_database import DRUG_INTERACTIONS, lookup_pair
+from server.patients import PATIENTS
+from models import (
     DrugInteractionAction,
     DrugInteractionObservation,
     DrugInteractionState,

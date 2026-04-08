@@ -11,7 +11,7 @@ for p in (_pkg_root, _repo_root):
     if str(p) not in sys.path:
         sys.path.insert(0, str(p))
 
-from drug_interaction_env.models import (
+from models import (
     DrugInteractionAction,
     ResetRequest,
     StepResponse,
